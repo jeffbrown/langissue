@@ -1,0 +1,16 @@
+plugins {
+    id "groovy"
+}
+
+version "0.1"
+group "langissue"
+
+repositories {
+    mavenCentral()
+    maven { url "https://jcenter.bintray.com" }
+}
+
+dependencies {
+    implementation "org.codehaus.groovy:groovy:2.5.8"
+}
+
